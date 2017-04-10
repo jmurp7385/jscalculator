@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  
+  <meta charset='UTF-8'>
+  <meta name='description' content='an online JavaScript Calculator'>
+  <meta name='keywords' content='HTML, CSS, JavaScript'>
+  <!--<meta http-equiv='refresh' content='30'>-->
+  <meta name='author' content='Joey Murphy'>
+  
+  <link rel="stylesheet" media="screen" href="/fonts/digital-7.ttf" type="text/css"/>
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+      
+  <!-- jQuery library -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src='js/calculator.js'></script>
+  <!-- Custom CSS -->
+  <link rel='stylesheet' href='css/calculator.css'>
+</head>
+
+<body>
+	<div class='container'>
+		<div class='calc'>
+			<h3 class='text-center'>JavaScript Calulator</h3>
+			<div id='text-box' class='text-right'>
+				<div id='entry'>
+					<p id='answer'>0</p>
+				</div>
+				<div id='history'>
+					<p>0</p>
+				</div>
+			</div>			
+			<div id='buttons'>
+				<button value='ac' class='red'>AC</button>
+				<button value='ce' class='red'>CE</button>
+				<button value='/'>&divide;</button>
+				<button value='*'>*</button>
+				<button value='7'>7</button>
+				<button value='8'>8</button>
+				<button value='9'>9</button>
+				<button value='-'>-</button>
+				<button value='4'>4</button>
+				<button value='5'>5</button>
+				<button value='6'>6</button>
+				<button value='+'>+</button>
+				<button value='1'>1</button>
+				<button value='2'>2</button>
+				<button value='3'>3</button>
+				<button class='invisible'>null</button>
+				<button value='0' class='zero'>0</button>
+				<button value='.'>.</button>
+				<button class='invisible'>null</button>
+				<button value='=' class='equal'>=</button>
+			</div>
+		</div>		
+	</div>
+</body>
